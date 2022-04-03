@@ -1,0 +1,26 @@
+---
+default_target: groups-all
+
+includes:
+  - config/includes/license.yaml
+
+configs:
+  - local/configs
+
+templates:
+  - local/templates
+
+compiles:
+  - name: local
+
+renders:
+  - name: README.md
+    output_dir: "."
+    dependencies:
+      - compiles-local
+
+groups:
+  - name: all
+    dependencies:
+      - groups-license
+      - renders-README.md

@@ -1,0 +1,6 @@
+.*_cache
+build
+venv*
+datazen-out
+.*.env
+tags
