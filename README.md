@@ -2,7 +2,7 @@
     =====================================
     generator=datazen
     version=3.0.4
-    hash=b0a4eb343051a6a30c19d7e347b9c731
+    hash=e672a5c24fbe9927f35b40d860166387
     =====================================
 -->
 
@@ -17,6 +17,14 @@ We have a long way to go. Let's get to work!
 [![Vaughn Kottler's GitHub stats](https://github-readme-stats.vercel.app/api?username=vkottler&show_icons=true&theme=github_dark)](https://github.com/anuraghazra/github-readme-stats)
 
 ## Python Projects
+
+Packages I've created are derived from
+[python-package-template](https://github.com/vkottler/python-package-template),
+a custom [`cookiecutter`](https://cookiecutter.readthedocs.io/en/stable/) template.
+A project template (that leverages a
+[config](https://github.com/vkottler/config) repository to keep templates
+synchronized in the long-term) makes it easier to start writing code as a next
+step immediately after justifying a new project.
 
 See also: [generated documentation](https://vkottler.github.io/python/pydoc/)
 (created with [`pydoc`](https://docs.python.org/3/library/pydoc.html)).
