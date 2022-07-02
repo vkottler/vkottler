@@ -18,6 +18,9 @@ renders:
     output_dir: "."
     dependencies:
       - compiles-local
+    template_dependencies:
+      - python_projects.md
+      - keybinds.md
 
 groups:
   - name: all

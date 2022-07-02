@@ -8,21 +8,6 @@ We have a long way to go. Let's get to work!
 
 [![{{license["name"]}}'s GitHub stats](https://github-readme-stats.vercel.app/api?username={{me["username"]}}&show_icons=true&theme=github_dark)](https://github.com/anuraghazra/github-readme-stats)
 
-## Python Projects
+{% include __templates__["python_projects.md"] %}
 
-Packages I've created are derived from
-[python-package-template](https://github.com/{{me["username"]}}/python-package-template),
-a custom [`cookiecutter`](https://cookiecutter.readthedocs.io/en/stable/) template.
-A project template (that leverages a
-[config](https://github.com/vkottler/config) repository to keep templates
-synchronized in the long-term) makes it easier to start writing code as a next
-step immediately after justifying a new project.
-
-See also: [generated documentation](https://{{me["username"]}}.github.io/python/pydoc/)
-(created with [`pydoc`](https://docs.python.org/3/library/pydoc.html)).
-Information about each project can be found on that project's `README.md`
-linked below.
-
-{% for package in python["packages"] %}
-* [{{package}}](https://github.com/{{me["username"]}}/{{package}})
-{% endfor %}
+{% include __templates__["keybinds.md"] %}
