@@ -9,6 +9,7 @@ configs:
 
 templates:
   - local/templates
+  - config/templates
 
 compiles:
   - name: local
@@ -19,8 +20,14 @@ renders:
     dependencies:
       - compiles-local
 
+  - name: FUNDING.yml
+    output_dir: ".github"
+    dependencies:
+      - compiles-local
+
 groups:
   - name: all
     dependencies:
       - groups-license
       - renders-README.md
+      - renders-FUNDING.yml
