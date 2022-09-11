@@ -3,16 +3,15 @@ default_target: groups-all
 
 includes:
   - config/includes/license.yaml
-
-configs:
-  - local/configs
+  - config/includes/funding.yaml
 
 templates:
   - local/templates
-  - config/templates
 
 compiles:
   - name: local
+    configs:
+      - local/configs
 
 renders:
   - name: README.md
@@ -20,14 +19,9 @@ renders:
     dependencies:
       - compiles-local
 
-  - name: FUNDING.yml
-    output_dir: ".github"
-    dependencies:
-      - compiles-local
-
 groups:
   - name: all
     dependencies:
       - groups-license
+      - groups-funding
       - renders-README.md
-      - renders-FUNDING.yml
