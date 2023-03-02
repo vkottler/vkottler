@@ -2,7 +2,7 @@
     =====================================
     generator=datazen
     version=3.1.0
-    hash=ad6bf0187508366ede6343522e9d83eb
+    hash=79443a3a3684d9e1f832fc4823dc87ae
     =====================================
 -->
 
@@ -86,6 +86,11 @@ than succeeded.
 We have a long way to go. Let's get to work!
 
 ## [Python](https://www.python.org/) Projects
+
+Check out the
+[YouTube series](https://www.youtube.com/playlist?list=PLTPrK33wiSsn76rMdJ7IVA1tWTcdWX0Fy)
+I'm working on where I go over my workflow and document notable feature
+developments.
 
 Packages I've created are derived from
 [python-package-template](https://github.com/vkottler/python-package-template),
