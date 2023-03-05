@@ -2,11 +2,20 @@
     =====================================
     generator=datazen
     version=3.1.0
-    hash=79443a3a3684d9e1f832fc4823dc87ae
+    hash=d36c40de9a9dcd02ab1a0daeec4cc6ca
     =====================================
 -->
 
 # Vaughn Kottler (vkottler)
+
+A snapshot of my activity.
+
+[![Vaughn Kottler's GitHub stats](https://github-readme-stats.vercel.app/api?username=vkottler&show_icons=true&theme=github_dark)](https://github.com/anuraghazra/github-readme-stats)
+
+# Quick Links
+
+* [Python Projects](#python-projects)
+* [TypeScript Projects](#typescript-projects)
 
 # Mission
 
@@ -85,7 +94,9 @@ than succeeded.
 
 We have a long way to go. Let's get to work!
 
-## [Python](https://www.python.org/) Projects
+## Python Projects
+
+*What's [Python](https://www.python.org/)?*
 
 Check out the
 [YouTube series](https://www.youtube.com/playlist?list=PLTPrK33wiSsn76rMdJ7IVA1tWTcdWX0Fy)
@@ -113,15 +124,11 @@ linked below.
 * [vtelem](https://github.com/vkottler/vtelem)
 * [runtimepy](https://github.com/vkottler/runtimepy)
 
-## [TypeScript](https://www.typescriptlang.org/) Projects
+## TypeScript Projects
+
+*What's [TypeScript](https://www.typescriptlang.org/)?*
 
 Currently working on a
 [typescript-package-template](https://github.com/vkottler/typescript-package-template)
 as I delve into web front-end technologies and workflows. This template is
 similar to the one I'm using for [Python projects](#python-projects).
-
-# GitHub
-
-A snapshot of my activity.
-
-[![Vaughn Kottler's GitHub stats](https://github-readme-stats.vercel.app/api?username=vkottler&show_icons=true&theme=github_dark)](https://github.com/anuraghazra/github-readme-stats)
