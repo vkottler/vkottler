@@ -1,8 +1,8 @@
 <!--
     =====================================
     generator=datazen
-    version=3.1.0
-    hash=d36c40de9a9dcd02ab1a0daeec4cc6ca
+    version=3.1.2
+    hash=0f92c660aa453ef83453d1fdc671a2d2
     =====================================
 -->
 
@@ -123,6 +123,8 @@ linked below.
 * [vmklib](https://github.com/vkottler/vmklib)
 * [vtelem](https://github.com/vkottler/vtelem)
 * [runtimepy](https://github.com/vkottler/runtimepy)
+* [rcmpy](https://github.com/vkottler/rcmpy)
+* [userfs](https://github.com/vkottler/userfs)
 
 ## TypeScript Projects
 

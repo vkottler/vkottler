@@ -7,3 +7,5 @@ packages:
   - vmklib
   - vtelem
   - runtimepy
+  - rcmpy
+  - userfs
