@@ -9,3 +9,4 @@ packages:
   - runtimepy
   - rcmpy
   - userfs
+  - yambs

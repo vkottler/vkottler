@@ -2,7 +2,7 @@
     =====================================
     generator=datazen
     version=3.1.2
-    hash=0f92c660aa453ef83453d1fdc671a2d2
+    hash=4cf7ea881487cb52f9e30d24992e0a6e
     =====================================
 -->
 
@@ -125,6 +125,7 @@ linked below.
 * [runtimepy](https://github.com/vkottler/runtimepy)
 * [rcmpy](https://github.com/vkottler/rcmpy)
 * [userfs](https://github.com/vkottler/userfs)
+* [yambs](https://github.com/vkottler/yambs)
 
 ## TypeScript Projects
 
