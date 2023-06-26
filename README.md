@@ -2,22 +2,19 @@
     =====================================
     generator=datazen
     version=3.1.2
-    hash=50eab99d5945c36541e31897504ea4d4
+    hash=50bdf6c1255e89b5b3f063d44aba69e6
     =====================================
 -->
 
 # Vaughn Kottler (vkottler)
 
-A snapshot of my activity.
-
 [![Vaughn Kottler's GitHub stats](https://github-readme-stats.vercel.app/api?username=vkottler&show_icons=true&theme=github_dark)](https://github.com/anuraghazra/github-readme-stats)
-
-[![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=vkottler)](https://github.com/anuraghazra/github-readme-stats)
 
 # Quick Links
 
 * [Python Projects](#python-projects)
 * [TypeScript Projects](#typescript-projects)
+* [Languages](#languages)
 
 # Mission
 
@@ -137,3 +134,7 @@ Currently working on a
 [typescript-package-template](https://github.com/vkottler/typescript-package-template)
 as I delve into web front-end technologies and workflows. This template is
 similar to the one I'm using for [Python projects](#python-projects).
+
+# Languages
+
+[![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=vkottler&hide=HTML,Eagle&exclude_repo=senior-design,diymore-stm32f407&langs_count=16&layout=donut)](https://github.com/anuraghazra/github-readme-stats)
