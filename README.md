@@ -2,7 +2,7 @@
     =====================================
     generator=datazen
     version=3.1.2
-    hash=4cf7ea881487cb52f9e30d24992e0a6e
+    hash=50eab99d5945c36541e31897504ea4d4
     =====================================
 -->
 
@@ -11,6 +11,8 @@
 A snapshot of my activity.
 
 [![Vaughn Kottler's GitHub stats](https://github-readme-stats.vercel.app/api?username=vkottler&show_icons=true&theme=github_dark)](https://github.com/anuraghazra/github-readme-stats)
+
+[![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=vkottler)](https://github.com/anuraghazra/github-readme-stats)
 
 # Quick Links
 
