@@ -2,13 +2,15 @@
     =====================================
     generator=datazen
     version=3.1.2
-    hash=50bdf6c1255e89b5b3f063d44aba69e6
+    hash=3f079cc0190bc358b5d51c8524949da6
     =====================================
 -->
 
 # Vaughn Kottler (vkottler)
 
-[![Vaughn Kottler's GitHub stats](https://github-readme-stats.vercel.app/api?username=vkottler&show_icons=true&theme=github_dark)](https://github.com/anuraghazra/github-readme-stats)
+[![Vaughn Kottler's GitHub stats](https://github-readme-stats.vercel.app/api?username=vkottler&show_icons=true&theme=github_dark&hide_title=true)](https://github.com/anuraghazra/github-readme-stats)
+
+[![Vaughn Kottler's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=vkottler&theme=github_dark&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
 # Quick Links
 
@@ -137,4 +139,4 @@ similar to the one I'm using for [Python projects](#python-projects).
 
 # Languages
 
-[![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=vkottler&hide=HTML,Eagle&exclude_repo=senior-design,diymore-stm32f407&langs_count=16&layout=donut)](https://github.com/anuraghazra/github-readme-stats)
+[![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=vkottler&theme=github_dark&hide=HTML,Eagle&exclude_repo=senior-design,diymore-stm32f407&langs_count=16&layout=donut)](https://github.com/anuraghazra/github-readme-stats)
