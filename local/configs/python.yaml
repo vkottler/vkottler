@@ -10,3 +10,4 @@ packages:
   - rcmpy
   - userfs
   - yambs
+  - ifgen

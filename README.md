@@ -2,7 +2,7 @@
     =====================================
     generator=datazen
     version=3.1.2
-    hash=3f079cc0190bc358b5d51c8524949da6
+    hash=cc05b5988d153b9cfd4883ad3213d9c8
     =====================================
 -->
 
@@ -127,6 +127,7 @@ linked below.
 * [rcmpy](https://github.com/vkottler/rcmpy)
 * [userfs](https://github.com/vkottler/userfs)
 * [yambs](https://github.com/vkottler/yambs)
+* [ifgen](https://github.com/vkottler/ifgen)
 
 ## TypeScript Projects
 
