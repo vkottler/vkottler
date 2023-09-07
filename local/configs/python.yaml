@@ -11,3 +11,4 @@ packages:
   - userfs
   - yambs
   - ifgen
+  - conntextual
