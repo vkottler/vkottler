@@ -2,7 +2,7 @@
     =====================================
     generator=datazen
     version=3.1.2
-    hash=b49667042483c6b8cef262151c163907
+    hash=42320bb1489ad7fe3c9456d2e4724985
     =====================================
 -->
 
@@ -94,11 +94,8 @@ from the internet.
 
 Creating software for hardware can also require expensive tools (e.g.
 oscilloscopes, protocol analyzers, in-circuit debuggers) and infrastructure
-(real-time telemetry, commanding, text logging) to attempt and experience
-success in a tight feedback loop.
-
-We're familiar with user interfaces that present explanations for errors (and
-even suggestions for how to fix them), but **iterating on embedded software is
+(real-time telemetry, commanding, text logging) to be productive and
+successful. **Iterating on embedded software is
 often extremely challenging even for veterans with decades of experience**.
 
 This has been my personal experience trying to earn stripes as a software
