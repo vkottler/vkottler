@@ -2,7 +2,7 @@
     =====================================
     generator=datazen
     version=3.1.2
-    hash=a22c7ee189bf80d6b5a845d8a67be9c1
+    hash=42320bb1489ad7fe3c9456d2e4724985
     =====================================
 -->
 
@@ -14,13 +14,38 @@
 
 # Quick Links
 
+* [C++ Projects](#c-projects)
 * [Python Projects](#python-projects)
 * [TypeScript Projects](#typescript-projects)
 * [Languages](#languages)
 
 # Mission
 
-**My long-term goal is to establish an ecosystem of iteractive
+**My long-term goal is to design electronics and write software that is
+practical for everyday use at home.**
+
+Having time and resources to put towards engineering is a luxury. Without
+self-sufficiencies such as:
+* Growing food and raising livestock
+* Having a source of fresh water
+* Having land or shelter to occupy and find community
+
+...life could demand that more primitive survival needs take priority at any
+moment.
+
+What would you do if you made a routine visit to a grocery store and there was
+no food? What if there was no voltage on the wires in the walls of your
+home? No natural gas to provide heat in the winter or boil water on the stove?
+
+**I'm interested in using technology to scale this infrastructure down** so
+that the average home could be equipped with:
+* An off-grid battery system
+* Automated watering and management of outdoor (or indoor) crops
+* General automation of household electronics from the local network
+
+...and more.
+
+**An additional long-term goal is to establish an ecosystem of iteractive
 resources (both hands-on via physical kits, in-person sessions and on the web)
 to provide a more enriching and enjoyable experience learning about software.**
 
@@ -36,18 +61,18 @@ learning feedback loop?
 
 # About
 
-I'm an engineer. I currently work on software to pay the bills and live in
-society, but I use most of my personal time to build a foundation of software
-and tools to march towards the [mission](#mission) stated above.
+I'm an engineer working around the clock. I'm currently focused on trying to
+own a home and start a family.
+
+I can't pursue these goals or the [mission](#mission) full-time without a real
+job, so that takes priority.
 
 I also believe that the easiest way to get hooked on software is to get
 first-hand experience with the highest gain factors: changing lines of code
 and making things move. **Moving pixels is fun, but moving massive objects and
 harnessing high amounts of physical power is something else entirely**.
 
-I'm extremely fortunate and grateful for the first-hand experience I've had
-to work on software that interacts with mechatronic systems. I find it highly
-rewarding, but also difficult to do as a hobby.
+As rewarding as such work can be, it's difficult to do as a hobby.
 
 Compute hardware like [Raspberry Pi](https://www.raspberrypi.com/),
 [Arduino](https://www.raspberrypi.com/) and many others present low-cost
@@ -65,35 +90,52 @@ enjoyable and satisfying for many of us.
 
 This satisfaction doesn't seem to translate to typing code from a booklet into
 some desktop (or browser) computer application, or downloading pre-written code
-from the internet. This is true at least for myself, and I've observed the same
-with people close to me that I've tried to share my passion for electronics
-with.
+from the internet.
 
-Even if something you built was inanimate until you provided it the software -
-**it matters whether or not you understand how feeding software into something
-works, and especially what that software does**.
-
-Knowing that hardware can be animated with the right software, contributing to
-the solution by observing the puzzle and manipulating the pieces can require
-lots of expensive tools (e.g. oscilloscopes, protocol analyzers, in-circuit
-debuggers) and infrastructure (real-time telemetry, commanding, text logging)
-to attempt and experience success in a tight feedback loop.
-
-We're familiar with user interfaces that present explanations for errors (and
-even suggestions for how to fix them), but **iterating on embedded software is
+Creating software for hardware can also require expensive tools (e.g.
+oscilloscopes, protocol analyzers, in-circuit debuggers) and infrastructure
+(real-time telemetry, commanding, text logging) to be productive and
+successful. **Iterating on embedded software is
 often extremely challenging even for veterans with decades of experience**.
 
 This has been my personal experience trying to earn stripes as a software
 engineer, but I feel that better tools could improve learning velocity and
 shorten iteration times.
 
-# Let us Begin
-
-Join me as I try to distill what I've learned into something I can share with
-you. In the end if we can manage some collective amusement, we have more
-than succeeded.
-
 We have a long way to go. Let's get to work!
+
+## C++ Projects
+
+It is extremely difficult to be productive with C/C++. Build systems and
+development workflows are hard to get right, and getting them wrong has
+huge cost.
+
+I implemented
+[yet-another-meta-build-system](https://github.com/vkottler/yambs) because
+I wanted a build system with a saner (and more minimal) configuration
+interface.
+
+Anothing missing piece is code generation, such as for network protocol
+definitions or HAL interfaces for firmware. I use
+[ifgen](https://github.com/vkottler/ifgen) for all code-generation needs.
+
+*In the end my entire Python ecosystem exists mainly to support
+mission-critical application development done in C/C++ (and soon: Rust).*
+
+I use the following projects to test the build system, which supports nested
+dependencies:
+* [yambs-sample](https://github.com/vkottler/yambs-sample)
+* [yambs-sample2](https://github.com/vkottler/yambs-sample2)
+* [yambs-sample3](https://github.com/vkottler/yambs-sample3)
+
+Real projects:
+* [coral](https://github.com/vkottler/coral)
+
+### Bare Metal
+
+Current projects:
+* [xmc](https://github.com/vkottler/xmc)
+* [firmware](https://github.com/project-81/firmware)
 
 ## Python Projects
 
@@ -134,10 +176,18 @@ linked below.
 
 *What's [TypeScript](https://www.typescriptlang.org/)?*
 
-Currently working on a
+I got
 [typescript-package-template](https://github.com/vkottler/typescript-package-template)
-as I delve into web front-end technologies and workflows. This template is
-similar to the one I'm using for [Python projects](#python-projects).
+into a usable state
+(similar to the one I'm using for [Python projects](#python-projects)) and
+spent time on [console](https://github.com/vkottler/console), but building
+an application for a browser is too labor-intensive to be practical for
+the kind of user-interface application(s) I'm looking to build.
+
+It would be faster to implement a
+[TUI](https://en.wikipedia.org/wiki/Text-based_user_interface) graphics library
+from scratch in C++ than it would be to use TypeScript and web technologies
+to build even a single application, so that's my current plan.
 
 # Languages
 
