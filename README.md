@@ -2,7 +2,7 @@
     =====================================
     generator=datazen
     version=3.1.2
-    hash=caaafcc6012fc18d445e309dd7fdb0a3
+    hash=95da0f58d333123f019913d05ae1e088
     =====================================
 -->
 
@@ -14,7 +14,7 @@
 
 # Quick Links
 
-* [C++ Projects](#c++-projects)
+* [C++ Projects](#c-projects)
 * [Python Projects](#python-projects)
 * [TypeScript Projects](#typescript-projects)
 * [Languages](#languages)
