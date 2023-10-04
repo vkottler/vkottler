@@ -101,11 +101,36 @@ We have a long way to go. Let's get to work!
 
 ## C++ Projects
 
-TODO.
+It is extremely difficult to be productive with C/C++. Build systems and
+development workflows are hard to get right, and getting them wrong has
+huge cost.
+
+I implemented
+[yet-another-meta-build-system](https://github.com/vkottler/yambs) because
+I wanted a build system with a saner (and more minimal) configuration
+interface.
+
+Anothing missing piece is code generation, such as for network protocol
+definitions or HAL interfaces for firmware. I use
+[ifgen](https://github.com/vkottler/ifgen) for all code-generation needs.
+
+*In the end my entire Python ecosystem exists mainly to support
+mission-critical application development done in C/C++ (and soon: Rust).*
+
+I use the following projects to test the build system, which supports nested
+dependencies:
+* [yambs-sample](https://github.com/vkottler/yambs-sample)
+* [yambs-sample2](https://github.com/vkottler/yambs-sample2)
+* [yambs-sample3](https://github.com/vkottler/yambs-sample3)
+
+Real projects:
+* [coral](https://github.com/vkottler/coral)
 
 ### Bare Metal
 
-TODO.
+Current projects:
+* [xmc](https://github.com/vkottler/xmc)
+* [firmware](https://github.com/project-81/firmware)
 
 ## Python Projects
 
