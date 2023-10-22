@@ -2,7 +2,7 @@
     =====================================
     generator=datazen
     version=3.1.2
-    hash=42320bb1489ad7fe3c9456d2e4724985
+    hash=59f64721fc7a45cc8770fe3c1a353754
     =====================================
 -->
 
@@ -135,6 +135,9 @@ Real projects:
 
 Current projects:
 * [xmc](https://github.com/vkottler/xmc)
+* [hal-xmc4700](https://github.com/vkottler/xmc)
+* [pico](https://github.com/vkottler/pico)
+* [hal-rp2040](https://github.com/vkottler/hal-rp2040)
 * [firmware](https://github.com/project-81/firmware)
 
 ## Python Projects
