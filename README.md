@@ -2,7 +2,7 @@
     =====================================
     generator=datazen
     version=3.1.2
-    hash=59f64721fc7a45cc8770fe3c1a353754
+    hash=8c2f629a057bdc8b36f715c3d9ef51db
     =====================================
 -->
 
@@ -194,4 +194,4 @@ to build even a single application, so that's my current plan.
 
 # Languages
 
-[![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=vkottler&theme=github_dark&hide=HTML,Eagle&exclude_repo=senior-design,diymore-stm32f407&langs_count=16&layout=donut)](https://github.com/anuraghazra/github-readme-stats)
+[![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=vkottler&theme=github_dark&hide=Eagle&exclude_repo=vkottler.github.io,hal-rp2040,hal-xmc4700,senior-design,diymore-stm32f407&langs_count=16&layout=donut)](https://github.com/anuraghazra/github-readme-stats)
