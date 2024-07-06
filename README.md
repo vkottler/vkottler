@@ -2,7 +2,7 @@
     =====================================
     generator=datazen
     version=3.1.4
-    hash=b627e26343a7e1cf2ab86fcda0755db6
+    hash=0ccc0367f8f8ab9715c1ca7d0a4effe0
     =====================================
 -->
 
@@ -57,6 +57,7 @@ Current projects:
 * [picolibc-semihost](https://github.com/vkottler/picolibc-semihost)
 * [firmware](https://github.com/project-81/firmware)
 * [hal-rt1176-cm7](https://github.com/vkottler/hal-rt1176-cm7)
+* [hal-rt1176-cm4](https://github.com/vkottler/hal-rt1176-cm4)
 
 ## Python Projects
 
@@ -113,4 +114,4 @@ to build even a single application, so that's my current plan.
 
 # Languages
 
-[![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=vkottler&theme=github_dark&hide=Eagle&exclude_repo=vkottler.github.io,hal-rp2040,hal-xmc4700,hal-rt1176-cm7,senior-design,diymore-stm32f407&langs_count=16&layout=donut)](https://github.com/anuraghazra/github-readme-stats)
+[![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=vkottler&theme=github_dark&hide=Eagle&exclude_repo=vkottler.github.io,hal-rp2040,hal-xmc4700,hal-rt1176-cm7,hal-rt1176-cm4,senior-design,diymore-stm32f407&langs_count=16&layout=donut)](https://github.com/anuraghazra/github-readme-stats)
