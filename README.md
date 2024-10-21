@@ -2,7 +2,7 @@
     =====================================
     generator=datazen
     version=3.1.4
-    hash=0ccc0367f8f8ab9715c1ca7d0a4effe0
+    hash=bb7a07acf51e8bf835d0a0bf42e3ef67
     =====================================
 -->
 
@@ -11,6 +11,8 @@
 [![Vaughn Kottler's GitHub stats](https://github-readme-stats.vercel.app/api?username=vkottler&show_icons=true&theme=github_dark&hide_title=true)](https://github.com/anuraghazra/github-readme-stats)
 
 [![Vaughn Kottler's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=vkottler&theme=github_dark&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+
+(this might be a paid integration now?)
 
 # Quick Links
 
