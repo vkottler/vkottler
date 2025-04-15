@@ -2,8 +2,8 @@
     =====================================
     generator=datazen
     version=3.2.0
-    hash=6e141981755dff55760063eb486de7bf
+    hash=8fa2b30081df5648ef32e1ffc372eb9d
     =====================================
 -->
 
-# We Need Food
+# [We Need Food](https://github.com/sponsors/libre-embedded)
