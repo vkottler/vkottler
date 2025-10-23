@@ -1,9 +1,9 @@
 <!--
     =====================================
     generator=datazen
-    version=3.2.0
-    hash=8fa2b30081df5648ef32e1ffc372eb9d
+    version=3.2.3
+    hash=51690ad62b53a1c36b2efe7a1f9fd237
     =====================================
 -->
 
-# [We Need Food](https://github.com/sponsors/libre-embedded)
+# [Stand with the Insurgency!](https://github.com/sponsors/libre-embedded)
